@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
+            density_medium
+        </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+      
+        <article>
+            <h2>Nissan GT-R</h2>
+            <p>O Nissan GT-R é um modelo de automóvel superesportivo produzido pela Nissan, foi anunciado em 2001 com o objectivo de dar sequencia a marca GT-R (que surgiu na década de 1960 que fez sucesso com o Skyline), em 6 de Dezembro de 2007 foi oficialmente lançado no Japão, em 2008 chegou aos Estados Unidos, Canadá e Portugal, no resto do mundo apenas em 2009. O modelo 2007 possui um motor 3.8 V6 Biturbo com potência de 480Cv (362 kW) e 59.95Kgfm (588,0N.m.) de torque, acoplado a uma transmissão automatizada de 6 marchas com dupla embreagem e sistema de tração AWD ATTESA E-TS®, esse conjunto fornece desempenho capaz de levar os 1740Kg de 0–100 km/h em 2.7s e tem velocidade máxima de 385 à 395 km/h.
+
+                O projeto do Nissan GT-R foi coordenado pelo engenheiro japonês Kazutoshi Mizuno, que no início do projeto já contava com mais de 40 anos de experiencia, foi engenheiro focado em corridas, diretor de equipe e designer de carros. Kazutoshi juntamente com toda a equipe queria revolucionar o mercado de supercarros com algo que suprisse as necessidades dos clientes, para isso o carro precisava passar a marca de 300km/h e não deveria custar mais de 100 mil dólares. Para que isso fosse possível a Nissan optou por produzir o supercarro em massa na maior e mais tecnológica fabrica da Nissan, que fica situada em Tochigi no Japão, a técnica de montagem exige muito mais precisão por se tratar de um carro incomum, os únicos componentes montados á mão são o motor e o câmbio que são produzidos em lugares diferentes e posteriormente montados no GT-R em Tochigi.
+                
+                O GT-R carrega a cultura japonesa desde seu projeto inicial, seu design foi inspirado nos robôs Gundam, o carro é oposto aos concorrentes europeus e americanos, o GT-R tem linhas fortes e robustas sugerindo baixa eficiência aerodinâmica, mas oque acontece é justamente o contrario, com um coeficiente aerodinâmico de 0,26 o design GT-R é pensado e produzido para reduzir arrastos e vórtices ao máximo, além de empurrar o carro para baixo aumentando a aderência e segurança em altas velocidades.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+          if (itens.style.display == 'block'){
+              itens.style.display ='none'
+          } else{
+            itens.style.display = 'block'
+          }
+        }
+    </script>
+</body>
+</html>
